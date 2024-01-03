@@ -3,4 +3,4 @@ A cache client for in memory or external cache allowing to use 1 simple interfac
 
 Underline it uses:
 * [node-cache](https://github.com/node-cache/node-cache) for in memory cache
-* [ioredis](https://github.com/redis/ioredis) for onnecting to Redis
+* [ioredis](https://github.com/redis/ioredis) for connecting to Redis instance
