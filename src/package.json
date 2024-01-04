@@ -1,8 +1,8 @@
 {
-    "name": "cache-helper",
-    "version": "0.9.1",
+    "name": "@danielyaghil/cache-helper",
+    "version": "0.9.2",
     "description": "A cache client for in memory or external cache allowing to use 1 simple interface regardless of final infrastructure.",
-    "main": "cache-helper.js",
+    "main": "index.js",
     "scripts": {
         "format:check": "prettier --check .",
         "format:write": "prettier --write .",
