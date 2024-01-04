@@ -5,9 +5,10 @@
   "main": "cache-helper.js",
   "scripts": {
     "test": "node ./src/node_modules/jest/bin/jest.js --runInBand --no-cache",
-    "test:debug": "node --inspect ./src/node_modules/jest/bin/jest.js --runInBand --no-cache --detectOpenHandles",
+    "test:debug": "node --inspect ./src/node_modules/jest/bin/jest.js --runInBand --no-cache ",
     "test:coverage": "node ./src/node_modules/jest/bin/jest.js --coverage --runInBand",
-    "test:clear": "node ./src/node_modules/jest/bin/jest.js --clear-cache"
+    "test:clear": "node ./src/node_modules/jest/bin/jest.js --clear-cache",
+    "test:cicd": "node ./src/node_modules/jest/bin/jest.js --runInBand --no-cache memory"
   },
   "repository": {
     "type": "git",

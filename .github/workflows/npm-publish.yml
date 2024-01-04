@@ -42,7 +42,7 @@ jobs:
         run: npm run format:check
 
       - name: Test app
-        run: npm run test
+        run: npm run test:cicd
         working-directory: ./
 
   publish:
