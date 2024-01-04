@@ -1,0 +1,6 @@
+/.github/
+/.vscode/
+/samples/
+/.eslintrc.json
+/.prettierrc.json
+/.jest.config.js

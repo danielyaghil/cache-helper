@@ -1,0 +1,39 @@
+{
+    "name": "cache-helper",
+    "version": "0.9.1",
+    "description": "A cache client for in memory or external cache allowing to use 1 simple interface regardless of final infrastructure.",
+    "main": "cache-helper.js",
+    "scripts": {
+        "format:check": "prettier --check .",
+        "format:write": "prettier --write .",
+        "lint:check": "eslint .",
+        "lint:fix": "eslint --fix ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/danielyaghil/cache-helper.git"
+    },
+    "keywords": [
+        "cache",
+        "memcache",
+        "redis"
+    ],
+    "author": "Daniel Yaghil",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/danielyaghil/cache-helper/issues"
+    },
+    "homepage": "https://github.com/danielyaghil/cache-helper#readme",
+    "dependencies": {
+        "ioredis": "^5.3.2",
+        "node-cache": "^5.1.2"
+    },
+    "devDependencies": {
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-jest": "^27.6.1",
+        "eslint-plugin-n": "^16.6.1",
+        "jest": "^29.7.0",
+        "prettier": "^3.1.1"
+    }
+}

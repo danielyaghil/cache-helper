@@ -1,0 +1,27 @@
+{
+  "name": "cache-helper",
+  "version": "0.9.1",
+  "description": "A cache client for in memory or external cache allowing to use 1 simple interface regardless of final infrastructure.",
+  "main": "cache-helper.js",
+  "scripts": {
+    "test": "node ./src/node_modules/jest/bin/jest.js --runInBand --no-cache",
+    "test:debug": "node --inspect ./src/node_modules/jest/bin/jest.js --runInBand --no-cache --detectOpenHandles",
+    "test:coverage": "node ./src/node_modules/jest/bin/jest.js --coverage --runInBand",
+    "test:clear": "node ./src/node_modules/jest/bin/jest.js --clear-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielyaghil/cache-helper.git"
+  },
+  "keywords": [
+    "cache",
+    "memcache",
+    "redis"
+  ],
+  "author": "Daniel Yaghil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielyaghil/cache-helper/issues"
+  },
+  "homepage": "https://github.com/danielyaghil/cache-helper#readme"
+}

@@ -1,0 +1,23 @@
+{
+  "cSpell.words": [
+    "applitest",
+    "AWSS",
+    "axos",
+    "checkperiod",
+    "danielyaghil",
+    "danieyaghil",
+    "Dotenv",
+    "flushall",
+    "Kroo",
+    "middlewares",
+    "pexpire",
+    "pocos",
+    "pttl",
+    "unmarshall"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.quickSuggestions": {
+    "comments": true
+  }
+}
