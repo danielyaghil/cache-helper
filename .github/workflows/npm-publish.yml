@@ -43,6 +43,7 @@ jobs:
 
       - name: Test app
         run: npm run test
+        working-directory: ./
 
   publish:
     runs-on: ubuntu-latest
