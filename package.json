@@ -1,8 +1,8 @@
 {
-  "name": "cache-helper",
-  "version": "0.9.1",
-  "description": "A cache client for in memory or external cache allowing to use 1 simple interface regardless of final infrastructure.",
-  "main": "cache-helper.js",
+  "name": "",
+  "version": "",
+  "description": "",
+  "main": "",
   "scripts": {
     "test": "node ./src/node_modules/jest/bin/jest.js --runInBand --no-cache",
     "test:debug": "node --inspect ./src/node_modules/jest/bin/jest.js --runInBand --no-cache ",

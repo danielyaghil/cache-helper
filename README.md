@@ -97,8 +97,8 @@ const retrievedValue = CacheClient.instance().get('key');
 
 You can refer to the unit test as samples:
 
-- memory cache are [here](https://github.com/danielyaghil/cache-helpers/tree/main/memory-cache.test.js)
-- external cache are [here](https://github.com/danielyaghil/aws-helpers/tree/main/
+- memory cache are [here](https://github.com/danielyaghil/cache-helper/blob/main/tests/memory-cache.test.js)
+- external cache (Redis) are [here](https://github.com/danielyaghil/cache-helper/blob/main/tests/redis-cache.test.js)
 
 NOTE: for running external cache test you can run locally [Redis using docker](https://redis.io/docs/install/install-stack/docker/)
 
